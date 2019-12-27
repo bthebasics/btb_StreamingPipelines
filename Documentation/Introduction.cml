@@ -1,0 +1,99 @@
+<html>
+<body>
+
+<p>Welcome to my course on <strong>&ldquo;Building Streaming pipelines using Apache spark, Kafka and Hbase&rdquo; . </strong>I am &ldquo;Abhijeet Rajput&rdquo;, I have experience of working big data technologies for several years.</p>
+<p>In this course, we will go over the concepts of architecture streaming pipelines along with famous stream processing architectures Lambda and Kappa.</p>
+<ul>
+<li>Stream processing Basics</li>
+<li>Lambda and Kappa architecture</li>
+<li>Spark and Kafka - Course</li>
+<li>building Streaming pipeline using Lambda using Open-weather Steaming feeds</li>
+<li><br /></li>
+</ul>
+<p><strong>Introduction</strong><br /></p>
+<p>In the recent years, real-time data processing has essential element of enterprise big data architecture. So lets have a look at what are streaming applications and why they are important.</p>
+<p><strong>What are the Streams ?</strong><br /></p>
+<p>Real-time data processing is one of the most promising applications of big data</p>
+<p>Real-time data processing is also called stream processing because of the continuous stream of input data required to yield output for that moment. <strong><br /></strong></p>
+<p>Streams are the event data as it happens .<br /></p>
+<p>providing near-instantaneous <strong>output</strong>. The processing is done as the data is inputted, so it needs a continuous stream of input data in order to provide a continuous output. Good examples of real-time data processing systems are bank ATMs, traffic control systems and modern computer systems such as the PC and mobile devices.<br /></p>
+<p>Real-time data processing is also called stream processing because of the continuous stream of input data required to yield output for that moment. Good examples are e-commerce order processing, onlinebooking and reservations, and credit card real-time fraud detection.<br /></p>
+<p><strong>Why streaming Systems ?</strong></p>
+<p>Real-time data is a necessity to stay relevant for today&rsquo;s business and it needs to be delivered by sophisticated electronic commun<br /></p>
+<p>providers can combine streaming data with real-time processing to create actionable insights on a minute-by-minute basis<br /></p>
+<p>Streaming <a href='https://www.alooma.com/blog/what-is-a-data-pipeline' target='_blank'>data pipelines</a> today enable organizations to transform and become data-driven, leveraging the latest in AI, machine learning and predictive or real-time prescriptive data analytics.<br /></p>
+<p>They can help you:</p>
+<ul>
+<li>increase the sociability and integrity of your <a href='https://www.alooma.com/blog/etl-process-traditional-vs-modern' target='_blank'>ETL process</a></li>
+<li>extract near real-time insights from massive amounts of data</li>
+<li>develop a flexible and salable approach to data ingestion and transformation</li>
+<li>Real-time data helps managers know what&rsquo;s going on at a glance</li>
+<li>Real-time data improves customer service</li>
+</ul>
+<blockquote>Real-time data is one of the most promising applications of big data in the <a href='https://hortonworks.com/solutions/healthcare/'>healthcare industry</a>. While batched data can provide powerful insights by identifying medium- and long-term trends, healthcare providers can combine streaming data with real-time processing to create actionable insights on a minute-by-minute basis.Real-time data will be a crucial asset as the industry tackles these problems.</blockquote>
+<ol start='2'>
+<li><br /></li><li></li><li></li>
+</ol>
+<p>In the past, big data was inte</p>
+<p><strong>What do we need to do? And how do we do this with high performance at scale?</strong></p>
+<p>We need to collect the data, process the data, store the data, and finally serve the data for analysis, machine learning, and dashboards.</p>
+<p><br /></p>
+<p pid='85'>advantageous of Streaming<br /></p>
+<p><br /></p>
+<p><br /></p>
+<p>Open weather App</p>
+<p>take step 1 = </p>
+<p>take step 2</p>
+<p>or Yahoo stocks App <br /></p>
+<p><br /></p>
+<p><br /></p>
+<p>Streaming diagram</p>
+<p><br /></p>
+<p>Messaging Systems</p>
+<p><br /></p>
+<p>Stream processing </p>
+<p><br /></p>
+<p cid='n0' mdtype='paragraph'>Streaming architectures : </p>
+<p cid='n0' mdtype='paragraph'><br /></p><a href='https://en.wikipedia.org/wiki/File:Diagram_of_Lambda_Architecture_(generic).png'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Diagram_of_Lambda_Architecture_%28generic%29.png/220px-Diagram_of_Lambda_Architecture_%28generic%29.png' alt='' /></a><a href="https://en.wikipedia.org/wiki/File:Diagram_of_Lambda_Architecture_(generic).png" title="Enlarge"></a>
+<p>Flow of data through the processing and serving layers of a generic lambda architecture</p>
+<p cid='n0' mdtype='paragraph'></p>
+<p><strong>Lambda architecture</strong> is a <a href='https://en.wikipedia.org/wiki/Data_processing' title='Data processing'>data-processing</a> architecture designed to handle massive quantities of data by taking advantage of both <a href='https://en.wikipedia.org/wiki/Batch_processing' title='Batch processing'>batch</a> and <a href='https://en.wikipedia.org/wiki/Stream_processing' title='Stream processing'>stream-processing</a> methods. This approach to architecture attempts to balance <a href='https://en.wikipedia.org/wiki/Latency_(engineering)' title='Latency (engineering)'>latency</a>, <a href='https://en.wikipedia.org/wiki/Throughput' title='Throughput'>throughput</a>, and <a href='https://en.wikipedia.org/wiki/Fault-tolerance' title='Fault-tolerance'>fault-tolerance</a> by using batch processing to provide comprehensive and accurate views of batch data, while simultaneously using real-time stream processing to provide views of online data. The two view outputs may be joined before presentation. The rise of lambda architecture is correlated with the growth of <a href='https://en.wikipedia.org/wiki/Big_data' title='Big data'>big data</a>, real-time analytics, and the drive to mitigate the latencies of <a href='https://en.wikipedia.org/wiki/Map-reduce' title='Map-reduce'>map-reduce</a>.<sup><a href='https://en.wikipedia.org/wiki/Lambda_architecture#cite_note-1'>[1]</a></sup></p><p cid="n6" mdtype="paragraph"></p>
+<p cid='n8' mdtype='paragraph'>high level viewpoint - </p>
+<p cid='n12' mdtype='paragraph'>message layer</p>
+<p cid='n14' mdtype='paragraph'>data processing layer</p>
+<p cid='n20' mdtype='paragraph'>BI/API</p>
+<p cid='n22' mdtype='paragraph'>Batch env vs speed layer :</p>
+<p cid='n24' mdtype='paragraph'>technology coined in 2013 - standard IOT </p>
+<p cid='n28' mdtype='paragraph'>Tech encounter - </p>
+<p cid='n32' mdtype='paragraph'>Kafka - dist message layer</p>
+<p cid='n34' mdtype='paragraph'>streaming layer - mem cache / TimeSeries and historina / cassandra and mongo DB</p><p cid="n38" mdtype="paragraph"></p>
+<p cid='n40' mdtype='paragraph'>batch has limitation on number of messages can be ingested - </p><p cid="n42" mdtype="paragraph"></p>
+<p cid='n44' mdtype='paragraph'>Kappa - =  lambda - batch ( mainly )</p>
+<p cid='n46' mdtype='paragraph'>incomning data - darabase or data stream : </p>
+<p cid='n48' mdtype='paragraph'>as much possible - st</p><p></p>
+<hr />
+
+<p cid='n50' mdtype='paragraph'>Streaming - </p>
+<p cid='n54' mdtype='paragraph'>deploy on data as it happens - realtime :</p>
+<p cid='n56' mdtype='paragraph'>operating on data as it comes, has some challenges : </p>
+<p cid='n58' mdtype='paragraph'>with data changes - model to make correct predictions as data changes </p><p cid="n52" mdtype="paragraph"></p>
+<p cid='n30' mdtype='paragraph'>--lambda &quot; </p>
+<p cid='n60' mdtype='paragraph'>&quot;<a href='https://www.youtube.com/watch?v=fPlgoTLJh38&t=310s'>https://www.youtube.com/watch?v=fPlgoTLJh38&amp;t=310s</a></p>
+<p cid='n63' mdtype='paragraph'>new data - is sent to 2 places splitting and going in 2 ways - </p>
+<p cid='n65' mdtype='paragraph'>when new data is being streamed - we deposit into batch layer and it becomes part of master dataset</p>
+<p cid='n67' mdtype='paragraph'>we also use to make predictions in seeed layer </p>
+<p cid='n2' mdtype='paragraph'>Serving ;ayer depend on the use case - </p>
+<p cid='n11' mdtype='paragraph'>There is website devoted : </p><p cid="n72" mdtype="paragraph"></p>
+<p cid='n74' mdtype='paragraph'>same data is copied into each layer - immuable master data store ( append only ) -</p>
+<p cid='n78' mdtype='paragraph'>nothing happens - until next batch run </p>
+<p cid='n80' mdtype='paragraph'>when data process - we process full data - every single time and recompile views </p>
+<p cid='n76' mdtype='paragraph'>Speed layer - </p>
+<p cid='n86' mdtype='paragraph'>to make data available - 2 layers </p>
+<p cid='n108' mdtype='paragraph'>2once data comes here - it get processed immediately  -increment view is recompile views ( like hive )</p><p cid="n109" mdtype="paragraph"></p>
+<p cid='n88' mdtype='paragraph'>1) batchlayer every day - evrything after wont have all data from then to next batch run </p>
+<p cid='n96' mdtype='paragraph'>Speed layer will help to aggregate data as it arrives, ( missing inbatch )</p>
+<p cid='n99' mdtype='paragraph'>combine results from both layer - to get all up to date data</p>
+<p cid='n84' mdtype='paragraph'>Serving layer - </p>
+<p cid='n114' mdtype='paragraph'>result of batch + speed ( indexed )</p>
+<p cid='n116' mdtype='paragraph'>Interface of queries - </p> </body>
+</html>
